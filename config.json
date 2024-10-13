@@ -1,0 +1,38 @@
+{
+    "testtitle": false,
+    "port": 11927,
+    "banwords": ["操","ces"],
+    "whitelist": [
+        "wxid_9bckjt61pv5322",
+        "49554781725@chatroom",
+        "wxid_c17a8q1ypdf622",
+        "57655280077@chatroom"
+    ],
+    "options_userinfo": {
+        "hostname": "192.168.50.99",
+        "port": 10010,
+        "path": "/userinfo",
+        "method": "GET",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    },
+    "options_message": {
+        "hostname": "192.168.50.99",
+        "port": 10010,
+        "path": "/text",
+        "method": "POST",
+        "headers": {
+            "'Content-Type'": "application/json"
+        }
+    },
+    "options_ai": {
+        "hostname": "localhost",
+        "port": 11434,
+        "path": "/api/generate",
+        "method": "POST",
+        "headers": {
+            "'Content-Type'": "application/json"
+        }
+    }
+}
